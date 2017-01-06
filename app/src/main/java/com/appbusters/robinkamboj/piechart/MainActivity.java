@@ -2,6 +2,7 @@ package com.appbusters.robinkamboj.piechart;
 
 import android.animation.ValueAnimator;
 import android.content.Context;
+import android.content.Intent;
 import android.graphics.Color;
 import android.graphics.EmbossMaskFilter;
 import android.graphics.PointF;
@@ -200,7 +201,9 @@ public class MainActivity extends AppCompatActivity {
             return true;
         }
         else if(id == R.id.about){
-
+            Intent i = new Intent(this, About.class);
+            startActivity(i);
+            return true;
         }
 
         return super.onOptionsItemSelected(item);

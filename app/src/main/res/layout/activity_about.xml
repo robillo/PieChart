@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_about"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.appbusters.robinkamboj.piechart.About">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+
+        android:layout_height="match_parent"
+        app:cardElevation="20dp"
+        app:cardCornerRadius="10dp"
+        android:layout_margin="15dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:lineSpacingExtra="2dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/about"
+                android:layout_margin="1dp"
+                android:textColor="#000000"
+                android:fontFamily="casual"
+                android:textSize="15dp"/>
+        </ScrollView>
+
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>

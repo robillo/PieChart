@@ -3,13 +3,23 @@
     style="@style/sample_activity"
     android:orientation="vertical">
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5sp"
+        android:textSize="15sp"
+        android:textColor="#FFF"
+        android:text="YOUR ANNUAL RADIATION RESULT"
+        android:layout_marginTop="?attr/actionBarSize"
+        android:background="#000"
+        android:gravity="center"/>
+
     <com.androidplot.pie.PieChart
-        android:id="@+id/pieChart"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:layout_weight="1"
-        androidPlot.title.text="A Simple Pie Chart"
-        androidPlot.title.labelPaint.textSize="@dimen/title_font_size"/>
+            android:id="@+id/pieChart"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+
     <LinearLayout
         android:layout_height="wrap_content"
         android:layout_width="fill_parent"
@@ -20,7 +30,7 @@
             android:layout_width="wrap_content"
             android:layout_height="fill_parent"
             android:layout_gravity="center"
-            android:text="Donut Size"
+            android:text="Graph Size"
             android:id="@+id/donutSizeSeekLabel"/>
         <SeekBar
             android:layout_width="fill_parent"

@@ -13,7 +13,7 @@
         android:layout_height="match_parent"
         app:cardElevation="20dp"
         app:cardCornerRadius="10dp"
-        android:layout_margin="15dp"
+        android:layout_margin="8dp"
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true">
 
@@ -28,7 +28,8 @@
                 android:layout_margin="1dp"
                 android:textColor="#000000"
                 android:fontFamily="casual"
-                android:textSize="15dp"/>
+                android:textSize="15dp"
+                android:padding="5sp"/>
         </ScrollView>
 
     </android.support.v7.widget.CardView>

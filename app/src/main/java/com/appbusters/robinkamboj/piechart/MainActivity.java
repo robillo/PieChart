@@ -34,11 +34,14 @@ public class MainActivity extends AppCompatActivity {
     SeekBar donutSizeSeekBar;
     TextView donutSizeTextView;
     Segment s1,s2,s3,s4;
+    Toolbar toolbar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        toolbar = (Toolbar) findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
 
         context= getApplicationContext();
 
@@ -108,10 +111,10 @@ public class MainActivity extends AppCompatActivity {
         donutSizeTextView = (TextView) findViewById(R.id.donutSizeTextView);
         updateDonutText();
 
-        s1 = new Segment("s1", 3);
-        s2 = new Segment("s2", 1);
-        s3 = new Segment("s3", 7);
-        s4 = new Segment("s4", 9);
+        s1 = new Segment("NS", 3);
+        s2 = new Segment("RN", 1);
+        s3 = new Segment("WYL", 7);
+        s4 = new Segment("EA", 9);
 
         EmbossMaskFilter emf = new EmbossMaskFilter(
                 new float[]{1, 1, 1}, 0.4f, 10, 8.2f);

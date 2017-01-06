@@ -199,6 +199,9 @@ public class MainActivity extends AppCompatActivity {
         if (id == R.id.action_settings) {
             return true;
         }
+        else if(id == R.id.about){
+
+        }
 
         return super.onOptionsItemSelected(item);
     }

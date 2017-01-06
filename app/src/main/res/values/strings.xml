@@ -1,4 +1,23 @@
 <resources>
+    
+     <string name="about">
+
+        \n<b><u>The Purpose</u></b>\n\nThe developments in the fields of <b>atomic energy</b> and <b>ionising radiations</b> have shown that they can provide immense benefit
+        to mankind. Their use in different facets of our life is rapidly increasing. <b>However</b>, these technologies are also
+        facing a serious problem, a problem of perception. Most of the Indians are completely blinded by the negative effects of these. There is also a growing fear in the minds of the public about the harmful effects
+        of ionising radiation.\nThe fear could be due to incomplete knowledge and may not have any scientific basis. In any case, if the <b>utilisation</b> of atomic energy and ionising radiations is to gain public acceptance,
+        it is essential that all the information about these subjects is made amply available to the common man,
+        in a language he understands. It is recognised that for an <b>optimum utilization</b> of any technology, a comprehensive
+        appreciation of its problems and potentials must prevail not only amongst the scientists and engineers associated
+        with the technology but amongst the general public also. In the case of ionising radiations while its <b>hazard
+        aspects</b> seem to have been over played for historial or other reasons, its full potential in the service of
+        mankind does not seem to have drawn the deserved attention of the general public. \n\n
+
+        <b><u>How this App will help</u></b>\n\nThis <b>Mobile Application</b> can be used as a <b>tool to educate</b> the general public that we live in a Radioactive world,
+        and Radiation has always been all around us as a part of our natural environment.\nIt will be shown that the amount of radiation that we receive from a nuclear power plant is much <b>less</b> than the amount
+        of radiation that we receive as a result of cosmic radiation, presence of <b>Radon in air</b>, etc. This will help in reducing irrational fear of nuclear radiation to some extend Indian Public.
+    </string>
+
     <string name="app_name">PRDC</string>
     <string name="action_settings">Settings</string>
     <string name="graph_info">NS- Natural Sources\nWYL- Where You Live\nRN- Radon\nEA- Consumption and Air</string>
